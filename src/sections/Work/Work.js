@@ -109,52 +109,31 @@ const Work = (props) => (
 
     {Experience(
       'IBM',
-      'Senior Software Engineer',
+      'Staff Software Engineer',
       'Southbury, CT',
       'May 2021 - Present',
       () =>
-        "Leads the software development team for IBM's cloud native ledger software, GLUI-NG. Works with developers, UI/UX designers, PO's, IM's, testers, and users to enhance the journaling software. Leverages modern technologies such as PostgreSQL, GraphQL, Apollo, MQ, Apache POI, Go, and IBM Hybrid Cloud to bring a new modern face to IBM's ledger application.",
+        "Leads the software development team for IBM’s cloud-native ledger software. Works on cross-functional teams to enhance the journaling software. Leverages modern technologies to bring a new modern face to IBM's ledger application. Integrated Apache POI to dynamically handle Excel document generation and parsing. Incorporated IBM Watson to construct a full stack chatbot application to handle user queries. Utilized Box and Java Springboot to stream video/image content to chatbot. Incorporated JWT authentication for meaningful user context. Implemented system for dynamically handling toast-style notifications. Led performance improvements initiative which led to an overall performance gain of ~60%. Acts as a software librarian for IBM's departmental software handling production deployments.",
       findImageByName('ibm.png', props.logos)
     )}
 
     {Experience(
       'IBM',
-      'Software Engineer',
+      'Associate Software Engineer',
       'Southbury, CT',
       'June 2020 - May 2021',
       () =>
-        "Full-stack software engineer focused primarily on the front-end and back-end of the IBM cloud-native applications GLUI, the single-entry point to IBM’s ledger for all global journal activity and GUDA, the global application for all IBM departmental activities. Works with testers, PO's, IM's, UI/UX designers, and users to enhance IBM's cloud-native journaling and departmental software. Leverages modern front-end technologies, such as React and Angular, and modern back-end technologies such as Go, GraphQL, Node.js and Express, Java RESTful services using Spring, JDBC, and SQL. Utilizes the IBM DB2 and PostgreSQL relational databases, Docker for containerization, Artifactory for encapsulating all Docker images, IBM Hybrid Cloud and k8s for container orchestration and management, along with a host of CI/CD software to provide automated testing and continuous deployment of cloud-native applications.",
-      findImageByName('ibm.png', props.logos)
-    )}
-
-    {Experience(
-      'IBM',
-      'Software Engineering Co-Op',
-      'Southbury, CT',
-      'August 2019 - June 2020',
-      () =>
-        'Continued the work I finished as an intern, but now as a Co-Op while I was a student at Cornell College. I participated in weekly stand-up meetings relating to the JIRA stories, I was assigned. With each story, I assisted the team remotely with various bug fixes and quality assurance testing of the front-end and back-end of the ledger application.',
-      findImageByName('ibm.png', props.logos)
-    )}
-
-    {Experience(
-      'IBM',
-      'Software Engineering Intern',
-      'Southbury, CT',
-      'May 2019 - August 2019',
-      () =>
-        "At IBM, I worked and collaborated with a diverse team of developers, UX/UI designers, PO's, IM's, testers, etc. from around the world in order to transition IBM’s global ledger application for all journal activity to a cloud-native solution utilizing React for the front-end, and a variety of technologies for the back-end micro-services, such as SQL, Java Spring, JDBC, k8s for container-orchestration, and Docker for containerization. As a team, we additionally leveraged a host of CI/CD software to develop the application along with Git and GitHub for version control, and Travis for integrated build tests.",
+        "Works on cross-functional teams to enhance IBM's ledger and departmental software. Developed various key front-end and back-end services. Integrated IBM Carbon Design system (React) as base design system for IBM's ledger software. Constructed documentation surrounding each of the ledger's micro-service's API utilizing Swagger. Utilized IBM SSO, JWT, and React Redux to securely authenticate users. Integrated dynamic session timeout handling for user sessions. Utilized cron jobs, Hibernate, and Java Springboot to automate the clean-up of user PI data within IBM's departmental software.",
       findImageByName('ibm.png', props.logos)
     )}
 
     {Experience(
       'Blackbird',
-      'Software Engineer',
+      'Software Engineering Intern',
       'San Francisco, CA',
       'June 2018 - August 2018',
       () =>
-        'As a software engineer at Blackbird, I worked closely with the CTO and the engineering team to construct custom components for the Blackbird web and mobile apps leveraging ' +
-        'React, React Native, React Native Web, GraphQL, Apollo, and ES6 JavaScript. In addition, I provided QA (Quality Assurance) and unit testing on multiple builds of the Blackbird web and mobile apps.',
+        "Worked closely with the CTO and the engineering team to construct custom components for the Blackbird web and mobile apps leveraging React, React Native, React Native Web, GraphQL, and Apollo. Provided Quality Assurance and unit testing on multiple builds of the Blackbird web and mobile apps.",
       findImageByName('blackbird.png', props.logos)
     )}
 

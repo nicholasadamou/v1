@@ -224,32 +224,11 @@ const AboutMe = (props) => (
       </h1>
 
       <p>
-        Currently, I am an{' '}
-        <a
-          className="ibm"
-          href="https://ibm.com/"
-          target="_blank"
-          aria-hidden="true"
-          rel="noopener noreferrer"
-        >
-          IBM
-        </a>{' '}
-        senior software engineer. I primarily focus on the front-end and
-        back-end of cloud-native applications. I graduated Summa Cum Laude from{' '}
-        <a
-          className="cornell"
-          href="https://www.cornellcollege.edu/"
-          target="_blank"
-          aria-hidden="true"
-          rel="noopener noreferrer"
-        >
-          Cornell College
-        </a>{' '}
-        where I earned my degree in Computer Science. I have always been a
-        highly organized and goal-driven individual who is a problem solver by
-        nature. I love programming because I can use my skills as a software
-        engineer to improve the lives of others by developing fun and intuitive
-        applications.
+      Performance-driven full-stack software engineer with a demonstrated history of working on the front-end and
+back-end of cloud-native applications. Experienced in a wide range of web-based technologies. Highly skilled in
+software design, system architecture, software development, requirements analysis, and problem-solving.
+Graduated Summa Cum Laude in Computer Science at Cornell College. Currently pursuing a Master of Science
+in Computer Science at Georgia Institute of Technology.
       </p>
       <Social>
         <SocialMediaButton
