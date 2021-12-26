@@ -121,7 +121,7 @@ const Work = (props) => (
       'IBM',
       'Associate Software Engineer',
       'Southbury, CT',
-      'June 2020 - May 2021',
+      'June 2019 - May 2021',
       () =>
         "Works on cross-functional teams to enhance IBM's ledger and departmental software. Developed various key front-end and back-end services. Integrated IBM Carbon Design system (React) as base design system for IBM's ledger software. Constructed documentation surrounding each of the ledger's micro-service's API utilizing Swagger. Utilized IBM SSO, JWT, and React Redux to securely authenticate users. Integrated dynamic session timeout handling for user sessions. Utilized cron jobs, Hibernate, and Java Springboot to automate the clean-up of user PI data within IBM's departmental software.",
       findImageByName('ibm.png', props.logos)
