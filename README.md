@@ -82,12 +82,6 @@ This project uses the following technologies:
 	- [**Bulma**](https://bulma.io/) - for layout styling.
 	- [**Moment.js**](https://momentjs.com/) - for handling dates.
 
-## ⛓️ CI/CD Pipeline
-
-This project uses the following CI/CD Pipeline:
-
-1. [**CircleCI**](https://circleci.com/) - CircleCI is used to test whether or not this project builds successfully.
-
 ## License
 
 © Nicholas Adamou.
